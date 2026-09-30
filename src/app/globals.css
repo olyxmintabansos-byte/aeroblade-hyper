@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --carbon: #0e1117; --orange: #ff5500; --white: #ffffff;
+  --light: #faf8f5;
+  --dark: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Courier New', monospace;
+  background: var(--light);
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.bg-light { background: var(--light); }
+.bg-dark { background: var(--dark); }
+.bg-primary { background: var(--primary); }
+.bg-accent { background: var(--accent); }
+.text-primary { color: var(--primary); }
+.text-accent { color: var(--accent); }
+.text-dark { color: var(--dark); }
+.text-light { color: var(--light); }
+.border-accent { border-color: var(--accent); }
